@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Slide Toggle Testing Pure ES6</title>	
+</head>
+<body>
+
+
+	<header id="masterHeader">
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">FAQ</a></li>
+				<li><a href="#">Blog</a></li>
+			</ul>
+			<a id="menu" href="#">Nav</a>
+		</nav>
+		<h1 class="header"><a target="_blank"  href="http://sitechop.com">Sitechop.com</a></h1>
+	</header>
+
+	<section>
+		<div class="widthWrapper">
+			<article>
+				<h2>Everything Slides On Toggle</h2>
+				<p>CSS3 Transitions are awesome. This runs a lot smoother than a jQuery slideToggle (specifically on mobile), and has no library dependencies. The transition's only work on IE10+, but the toggle functionality will work fine on IE8+.</p>
+				<p>Many browsers render em's slightly different in size. To solve this problem I had to calculate the height of the menu and change margin-top using JavaScript. On the plus side this allows us to add navigation links without having to change any styles. I placed an estimate of margin-top, so browsers that render em's differently than chrome will only see a 2-4px flash of grey.</p>
+				<p><a target="_blank" href="http://sitechop.com/front-end-dev/css3-pure-js-slide-toggle-menu-tutorial">Return to Post</a> | <a target="_blank" href="http://sitechop.com">Return Home</a></p>
+			</article>
+		</div>
+	</section>
+
+
+
+	<script type="text/javascript">
+	// Menu button element
+	var menu = document.getElementById('menu');
+
+// Header element
+var header = document.getElementById('masterHeader');
+
+// Nav element
+var nav = document.getElementsByTagName('nav')[0]
+
+// Calculates nav height, adds - and px
+var height = "-" + nav.clientHeight + "px"
+
+// Add negative margin of nav's height to header
+header.style.marginTop = height
+
+// Toggle class function
+function toggleClass(element, className){
+	if (!element || !className){
+		return;
+	}
+	
+	var classString = element.className, nameIndex = classString.indexOf(className);
+	if (nameIndex == -1) {
+		classString += ' ' + className;
+	}
+	else {
+		classString = classString.substr(0, nameIndex) + classString.substr(nameIndex+className.length);
+	}
+	element.className = classString;
+}
+
+// Toggles show class which overides the negative margin
+menu.onclick = function() {
+	toggleClass(header, 'show');
+};
+</script>
+
+
+
+</body>
+</html>
