@@ -5,6 +5,7 @@ nav.navbar.navbar-white {
 
 nav.navbar.navbar-blue {
     padding: 0 16px;
+    border-bottom: 1px solid #1f385a;
 }
 
 #familyLink {
@@ -16,9 +17,27 @@ a#familyLink:hover {
     color: #fff;
 }
 
-.nav-item>a:link.nav-link {
+.nav-item.fam>a:link.nav-link {
     color: #83A7BF;
     padding: 22px 30px;
+}
+
+li.nav-item.dropdown>a:link,
+li.nav-item.dropdown>a:link:hover {
+    color: #fff;
+}
+
+.dropdown-menu.show,
+.dropdown-menu.show>a:link.dropdown-item {
+    background-color: #1f385a;
+    color: #fff;
+    border-radius: 0;
+    margin-top: 0;
+    z-index: 9999;
+}
+
+a:link.dropdown-item {
+    padding: 0.75em 1em 0.75em 3em;
 }
 
 a.nav-link.dropdown-toggle.family {
@@ -71,6 +90,10 @@ h5.site {
 @media (max-width: 575px) {
     .tab-content {
         margin-top: 270px;
+    }
+
+    ul.nav {
+        /* padding-top: 30px; */
     }
 }
 
