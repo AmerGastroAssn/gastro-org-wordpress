@@ -165,10 +165,3 @@ span.current {
     background-color: #8eb0c6;
   }
 }
-
-/* selector .elementor-column-gap-default
-  > .elementor-row
-  > .elementor-column
-  > .elementor-element-populated {
-  padding: 40px;
-} */

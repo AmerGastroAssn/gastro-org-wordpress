@@ -1,0 +1,46 @@
+/** Push menu onto new line **/
+#{$wrap} {
+    clear: both;
+}
+span.mega-indicator {
+    color: #64b9e1 !important;
+}
+figcaption.wp-caption-text {
+    display: none;
+}
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 a.mega-menu-link .mega-description-group .mega-menu-description {
+    font-style: normal;
+    font-size: 0.7777em !important;
+    text-transform: none;
+    font-weight: 500 !important;
+    color: #7096a9 !important;
+    line-height: normal;
+    margin: 0 auto !important;
+    z-index: 10;
+}
+.mega-menu-aside-bar {
+    background: #64b9e1 !important;
+
+}
+
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 .mega-mega-menu-aside-bar .widget_text {
+    height: 50vh !important;
+}
+.mega-mega-menu-aside-bar .widget_text {
+	padding: 70px 25px !important;
+	color:#fff !important;
+}
+
+.mega-mega-menu-aside-bar .textwidget {
+	font-size:15px !important;
+}
+
+.mega-mega-menu-aside-bar h4.mega-block-title {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.mega-sub-column a.mega-menu-link {
+    line-height: 25px!important;
+}
+

@@ -1,0 +1,66 @@
+selector .link {
+  color: #0090d5 !important;
+}
+
+selector .link:hover {
+  color: #37a6db !important;
+}
+
+selector i {
+  font-size: 30px;
+}
+
+selector .academ-icon {
+  margin: 20px;
+}
+
+selector .acadm-header {
+  font-size: 15px;
+  font-family: 'Avenir';
+  padding-right: 50px;
+  line-height: 20px;
+}
+
+selector button {
+  background: #1f385a;
+  border-color: #1f385a;
+  display: inline-block;
+  margin: 0px 270px;
+}
+
+selector button a {
+  color: white;
+}
+
+selector a {
+  color: #00588a;
+}
+
+selector a:hover {
+  color: #0090d5;
+}
+
+selector .list-group-item {
+  background-color: #fff;
+  border-color: rgba(1, 1, 1, 0.2);
+}
+
+selector .application {
+  background-color: #c9e9f6;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+selector .main-body {
+  background-color: #f2f6f9;
+  padding: 20px;
+}
+
+selector h2 {
+  font-family: "Gotham Bold", Helvetica, Sans-Serif;
+  color: #1f385a;
+}
+
+selector .elementor-toggle .elementor-tab-title {
+  border-bottom: none;
+}

@@ -1,0 +1,152 @@
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34e3cc");
+@font-face {font-family: 'AvenirLTStd-Heavy';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_0_0.eot');src: url('http:f//new.gastro.org/wp-content/uploads/2020/03/34E3CC_0_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_0_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_0_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-MediumOblique';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_1_0.eot');src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_1_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_1_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_1_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Medium';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_2_0.eot');src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_2_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_2_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_2_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-BookOblique';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_3_0.eot');src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_3_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_3_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_3_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-Book';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_4_0.eot');src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_4_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_4_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_4_0.ttf') format('truetype');}
+@font-face {font-family: 'AvenirLTStd-HeavyOblique';src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_5_0.eot');src: url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_5_0.eot?#iefix') format('embedded-opentype'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_5_0.woff') format('woff'),url('http://new.gastro.org/wp-content/uploads/2020/03/34E3CC_5_0.ttf') format('truetype');}
+
+:root {
+	/* Fonts */
+	--serif: 'Georgia', Cambria, Faustina, Merriweather, Charter, 'Times New Roman', serif !important;
+	--ave-bold: 'AvenirLTStd-Heavy', 'Helvetica', Arial, sans-serif !important;
+	--ave-med: 'AvenirLTStd-Medium', 'Helvetica', Arial, sans-serif !important;
+	--ave-book: 'AvenirLTStd-Book', 'Helvetica', Arial, sans-serif !important;
+	--goth-reg: "Gotham Regular", "Gotham SSm A", "Gotham SSm B", Nunito, 'Helvetica Neue', Arial, sans-serif !important;
+	--goth-bold: 'Gotham Bold', AvenirLTStd-Heavy, 'Gotham Book', 'Avenir Next', 'Nunito', 'Helvetica Neue', Arial, sans-serif !important;
+	--monospace: 'SF Mono', Menlo, 'Roboto Mono', 'Deja Vu Sans Mono', 'Monaco', monospace !important;
+
+	/* Colors */
+	--dark: #122033;
+	--light: #fff;
+	--white: #fff;
+	--light-gray: #fcfdfd;
+	--midnight: #122033;
+	--matt-blue: #202c40;
+	--granite: #678598;
+	--ocean: #00588a;
+	--sky: #008fd5;
+	--ice: #69badf;
+	--water: #abe1fa;
+	--water-rgb: rgb(169.0, 225.0, 251.0);
+	--steel: #8fb0c5;
+	--ash: #94a3ac;
+	--silver: #dcddde;
+	--cloud: #f2f6f8;
+	--avocado: #67952e;
+	--grass: #9bcb40;
+	--lime: #c8da2b;
+	--plum: #96157c;
+	--plum-rgb: rgb(152.0, 9.0, 125.0);
+	--gum: #d0167c;
+	--gum-rgb: rgb(210.0, 6.0, 124.0);
+	--brick: #b02a30;
+	--orange: #f58320;
+	--gold: #faa61a;
+	--yellow: #ffc107;
+
+	/* MY IBD LIFE LINK COLORS */
+	/* Link Colors */
+	--link-blue: #c4e5f5;
+	--link-gray: #f1f5f6;
+	--link-yellow: #ffd081;
+
+	/* Homepage Colors */
+	--sec-one-blue: #c8ebfb;
+	--sec-two-blue: #e3f4fc;
+}
+
+
+/* Custom AGA Bootstrap theme buttons */
+.btn {
+	font-family: var(--ave-book);
+	border-radius: 5px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	/* display: inline-block; */
+	font-size: 1.25rem;
+	font-weight: 700;
+	padding: 12px 21.43px;
+	text-decoration: none;
+}
+
+.aga-btn-dark {
+	color: var(--white);
+	background-color: var(--midnight);
+	border-color: var(--midnight);
+	border-radius: 5px;
+}
+.aga-btn-dark:hover {
+	color: var(--white);
+	background-color: var(--sky);
+	border-color: var(--sky);
+	border-radius: 5px;
+}
+
+.aga-btn-primary {
+	color: var(--white);
+	background-color: var(--sky);
+	border-color: var(--sky);
+	border-radius: 5px;
+}
+.aga-btn-primary:hover {
+	color: var(--white);
+	background-color: var(--ocean);
+	border-color: var(--ocean);
+	border-radius: 5px;
+}
+
+.aga-btn-success {
+	color: var(--white);
+	background-color: var(--avacado);
+	border-color: var(--avacado);
+	border-radius: 5px;
+}
+.aga-btn-success:hover {
+	color: var(--white);
+	background-color: var(--lime);
+	border-color: var(--lime);
+	border-radius: 5px;
+}
+
+.aga-btn-danger {
+	color: var(--white);
+	background-color: var(--brick);
+	border-color: var(--brick);
+	border-radius: 5px;
+}
+.aga-btn-danger:hover {
+	color: var(--white);
+	background-color: var(--plum);
+	border-color: var(--plum);
+	border-radius: 5px;
+}
+
+.aga-btn-warning {
+	color: var(--white);
+	background-color: var(--gold);
+	border-color: var(--gold);
+	border-radius: 5px;
+}
+.aga-btn-warning:hover {
+	color: var(--white);
+	background-color: var(--yellow);
+	border-color: var(--yellow);
+	border-radius: 5px;
+}
+
+.aga-btn-info {
+	color: var(--white);
+	background-color: var(--plum);
+	border-color: var(--plum);
+	border-radius: 5px;
+}
+.aga-btn-info {
+	color: var(--white);
+	background-color: var(--gum);
+	border-color: var(--gum);
+	border-radius: 5px;
+}
+

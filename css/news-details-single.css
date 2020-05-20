@@ -1,0 +1,45 @@
+p > strong,
+p > ul > li > strong,
+p > ol > li > strong,
+ul > li > strong {
+  font-family: 'AvenirLTStd-Heavy', 'Helvetica', sans-serif !important;
+  font-weight: bold;
+}
+
+blockquote {
+  background: var(--water);
+  /* background: #c9e9f7; */
+  padding: 30px;
+  border-radius: 2px;
+  margin: 2em 0;
+  font-family: 'Georgia', Cambria, serif !important;
+  color: var(--ocean);
+  font-size: 18px;
+  display: block;
+  max-width: 100%;
+  line-height: 1.6em;
+}
+
+blockquote > p {
+  font-family: var(--serif);
+  color: var(--ocean);
+  font-size: 18px;
+  line-height: 1.6em;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+blockquote > p > a {
+  color: #0090D5;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+blockquote > a, blockquote > a:link,
+blockquote > p > a:link, blockquote > p > a:hover  {
+  color: #008fd5 !important;
+}
+blockquote > a:hover, blockquote > a:link:hover,
+blockquote > p > a:link:hover, blockquote > a:hover {
+  color: #ffc107 !important;
+}

@@ -8,27 +8,28 @@ nav.navbar.navbar-blue {
     border-bottom: 1px solid #1f385a;
 }
 
-#familyLink {
+#familyLinkDesktop {
     padding: 14px 8px;
 }
 
-a#familyLink,
-a#familyLink:hover {
+a#familyLinkDesktop,
+a#familyLinkDesktop:hover {
     color: #fff;
 }
 
-.nav-item.fam>a:link.nav-link {
-    color: #83A7BF;
+.nav-item.fam > a:link.nav-link {
+    color: #83a7bf;
     padding: 22px 30px;
 }
 
-li.nav-item.dropdown>a:link,
-li.nav-item.dropdown>a:link:hover {
+li.nav-item.dropdown > a:link,
+li.nav-item.dropdown > a:link:hover {
     color: #fff;
 }
 
 .dropdown-menu.show,
-.dropdown-menu.show>a:link.dropdown-item {
+.dropdown-menu.show > a:link.dropdown-item,
+a:link:hover.dropdown-item {
     background-color: #1f385a;
     color: #fff;
     border-radius: 0;
@@ -45,11 +46,10 @@ a.nav-link.dropdown-toggle.family {
     cursor: pointer;
 }
 
-li>a.active {
+li > a.active {
     border-bottom: 2px solid #1f385a;
     color: #1f385a !important;
 }
-
 
 a:link#close {
     color: #fff !important;
@@ -58,7 +58,6 @@ a:link#close {
     margin-top: 15px;
     margin-left: 30px;
 }
-
 
 .tab-content {
     background-color: #f2f6f8;
@@ -86,20 +85,20 @@ h5.site {
     min-height: 350px;
 }
 
+i.fal.fa-user, span.sub-arrow {
+    color: #64B9E1;
+}
+
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575px) {
     .tab-content {
         margin-top: 270px;
     }
-
-    ul.nav {
-        /* padding-top: 30px; */
-    }
 }
 
-@media (max-width: 768px) {
-    nav.navbar.navbar-white {
-        height: 150px;
-    }
+/*@media (max-width: 768px) {*/
+/*  #familySection {*/
+/*    display: none;*/
+/*  }*/
+/*}*/
 
-}

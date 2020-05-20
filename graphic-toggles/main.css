@@ -1,0 +1,41 @@
+selector .link-first {
+    color: #0090D5 !important;
+}
+
+
+selector .btn-join {
+    color: white !important;
+}
+
+selector i {
+    font-size: 30px;
+}
+
+
+selector .grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+selector h2 {
+    font-family: "Gotham Bold", Helvetica, Sans-Serif;
+}
+
+
+selector button {
+    background: #1F385A;
+    border-color: #1f385a;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+selector div button a {
+    color: white !important;
+}
+
+ selector .elementor-tab-title {
+    background-color: #cecece;
+    background: linear-gradient(0deg, rgba(37,66,106,1) 0%, rgba(37,66,106,0.500437675070028) 100%), url(https://aga-cms-assets.s3.amazonaws.com/2018413203143---GettyImages-649645602-720x437-f5d9c330-15e3-4bc2-97cb-32861bb1878a.jpg) no-repeat center;
+    background-size: cover;
+ }

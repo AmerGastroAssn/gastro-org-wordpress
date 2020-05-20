@@ -1,0 +1,102 @@
+h3> a, a.grey-blue-card-link {
+    text-decoration: none;
+    color: #1f385a;
+}
+
+.grey-blue-card:hover, .grey-blue-card:hover > *  {
+    background-color: #e7f6fe !important;
+    color: #0056b3 !important;
+}
+a.grey-blue-card-link:hover,
+a.grey-blue-card-link:hover>* {
+    text-decoration: none;
+    color: #0056b3 !important;
+}
+
+h3.grey-blue-text:hover,
+p.grey-blue-text:hover {    
+    background-color: #e7f6fe !important;
+    color: #0056b3 !important;
+}
+
+.grey-blue-card {
+    background-color: #f2f6f8;
+    padding: 3em;
+    margin: 1em 0;
+}
+
+
+
+
+/* Old */
+.card {
+  border: none !important;
+  border-radius: 0 !important;
+  background-color: #f2f6f9;
+}
+
+.card:hover > *,
+.card:hover {
+  background-color: #c9e9f7 !important;
+  color: #0056b3;
+}
+
+selector h5 a,
+selector .card a {
+  color: #00588a !important;
+  font-size: 22px;
+  font-family: 'Gotham-Bold', "Gotham-Book", Helvetica, Sans-Serif;
+  font-weight: bold;
+}
+
+selector .card-body {
+  background-color: #f2f6f9;
+}
+
+selector .card a:hover {
+  opacity: 0.8;
+}
+
+selector i {
+  font-size: 30px;
+}
+
+/*  Olivers  */
+selector li a {
+  color: #0090d5 !important;
+}
+
+selector i {
+  font-size: 30px;
+}
+
+selector h5 {
+  color: #1f385a;
+  font-size: 18px;
+}
+
+selector .card-title a {
+  color: #00588a !important;
+}
+
+/*  old */
+selector h5 a,
+selector .card a {
+  color: #00588a !important;
+  font-size: 22px;
+  font-family: 'Gotham-Bold', "Gotham-Book", Helvetica, Sans-Serif;
+  font-weight: bold;
+  border: none;
+}
+
+selector .card-body {
+  background-color: #f2f6f9;
+}
+
+selector .card a:hover {
+  opacity: 0.8;
+}
+
+selector i {
+  font-size: 30px;
+}

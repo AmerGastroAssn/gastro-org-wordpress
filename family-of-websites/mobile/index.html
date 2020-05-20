@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AGA Family of Websites</title>
+        <!-- Bootstrap & FontAwesome -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+              crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+                integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+                crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+                crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+                crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.5.0/css/all.css"
+              integrity="sha384-j8y0ITrvFafF4EkV1mPW0BKm6dp3c+J9Fky22Man50Ofxo2wNe5pT1oZejDH9/Dt"
+              crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./main.css">
+    </head>
+
+    <body>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-blue"
+             style="background-color:#1f385a; font-weight:bold; color:#f2f6f8!important;">
+            <div class="container top-nav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item dropdown top-bar">
+                        <a class="nav-link dropdown-toggle" id="familyLink" style="cursor:pointer;">
+                            Gastro.org
+                            <!-- Gastro.org -->
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="loginLink" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fal fa-user" style="color:#ffffff;"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <div id="familyDropdown" class="tab-dropdown">
+            <ul class="list-group" id="family">
+                <li class="list-group-item family-item">
+                    <a href="#">AGA Journals</a>
+                </li>
+                <li class="list-group-item family-item">
+                    <a href="#">AGA University</a>
+                </li>
+                <li class="list-group-item family-item">
+                    <a href="#">AGA Research Foundation</a>
+                </li>
+                <li class="list-group-item family-item">
+                    <a href="#">AGA Community</a>
+                </li>
+                <li class="list-group-item family-item">
+                    <a href="#">AGA Job Board</a>
+                </li>
+            </ul>
+            <ul class="list-group" id="login">
+                <li class="list-group-item family-item">
+                    <a href="#">Join AGA</a>
+                </li>
+                <li class="list-group-item family-item">
+                    <a href="#">Login</a>
+                </li>
+            </ul>
+        </div>
+
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                // Mobile
+                $('#family').hide();
+                $('#login').hide();
+                $('a#familyLink').on('mousedown',function () {
+                    $('ul#family').slideToggle(250);
+                });
+                $('a#loginLink').on('mousedown',function () {
+                    $('ul#login').slideToggle(250);
+                    console.log('login clicked');
+                });
+
+                // Desktop
+                $('#familyDropdownDesktop').hide();
+                $('ul.navbar-nav.mr-auto').toggleClass('');
+                $('a#familyLinkDesktop').on('mousedown',function () {
+                    $('.tab-content').toggleClass('min-350');
+                    $('ul.navbar-nav.mr-auto').toggleClass('dark-blue');
+                    $('#familyDropdownDesktop').slideToggle(300);
+                });
+
+                $('#close').on('click',function () {
+                    $('#familyDropdownDesktop').slideUp(300);
+                });
+            });
+        </script>
+
+
+    </body>
+
+</html>

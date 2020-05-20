@@ -1,0 +1,24 @@
+<!-- EHS UAT - 300x250 mobile 2 - Physicians (MD)/Gastroenterology/ -->
+<div id="aga-gastro-3">
+    <script type="text/javascript">
+        var ehs_screenwidth = ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) ? screen.width : window.innerWidth;
+        if (ehs_screenwidth < 960) {
+            (function () {
+                var a = "",b = [
+                    "adid=aga-gastro-3",
+                    "site=ehs.pro.aga.gastro",
+                    "size=300x250",
+                    "zone=",
+                    "iprof=md",
+                    "ims1=g10",
+                ];
+                for (var c = 0; c < b.length; ++c) { a += b[c] + "&"; } a += "r=" + Math.random() * 1e16 + "&url=" + encodeURIComponent(window.location.href);
+                var x = "https://ads.ehealthcaresolutions.com/a/?" + a;
+                var y = document.createElement("script"); y.type = "text/javascript"; y.async = true; y.src = x;
+                var z = document.getElementsByTagName("script")[0];
+                z.parentNode.insertBefore(y,z);
+            })();
+        }
+    </script>
+</div>
+<!-- END EHS UAT -->

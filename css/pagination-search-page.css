@@ -1,5 +1,5 @@
 nav.elementor-pagination {
-  margin: 200px 0;
+  margin: 50px 0;
   padding: 0;
 }
 
@@ -167,8 +167,8 @@ span.current {
 }
 
 /* selector .elementor-column-gap-default
-  > .elementor-row
-  > .elementor-column
-  > .elementor-element-populated {
-  padding: 40px;
-} */
+    > .elementor-row
+    > .elementor-column
+    > .elementor-element-populated {
+    padding: 40px;
+  } */

@@ -10,7 +10,7 @@ selector .wrapper {
 }
 
 .elementor-tabs-wrapper {
-        
+    grid-template-rows: 1fr;    
 }
 
 
@@ -19,7 +19,7 @@ selector .first {
     font-size: 22px;
     color: #4C7188;
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     justify-content: center;
     justify-items: center;    
     text-align: center;

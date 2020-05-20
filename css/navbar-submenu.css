@@ -1,33 +1,32 @@
 ul.sub-menu {
-	height: 120px;
-	border: none;
-	white-space: normal;
-	background: rgb(201, 237, 254);
-	border-radius: 0;
-	color: rgb(0, 88, 138);
-	box-shadow: transparent 0 0 0 0;
+  height: 120px;
+  border: none;
+  white-space: normal;
+  background: rgb(201, 237, 254);
+  border-radius: 0;
+  color: rgb(0, 88, 138);
+  box-shadow: transparent 0 0 0 0;
 }
 
 .menu-item.menu-item-type-custom {
-	border: 1px solid rgb(201, 237, 254);
+  border: 1px solid rgb(201, 237, 254);
 }
 
 .elementor-nav-menu-dropdown {
-	border-bottom: 1px solid rgb(201, 237, 254);
+  border-bottom: 1px solid rgb(201, 237, 254);
 }
 
 .menu-item.menu-item-type-post_type.menu-item-object-page {
-
 }
 
 .elementor-245 .elementor-element.elementor-element-bc6deb1 .elementor-nav-menu--dropdown li:not(:last-child) {
-	border-style: solid;
-	border-color: rgb(201, 237, 254) !important; 
-	border-bottom-width: 1px;
+  border-style: solid;
+  border-color: rgb(201, 237, 254) !important;
+  border-bottom-width: 1px;
 }
 
 .elementor-245.elementor-element.elementor-element-bc6deb1 .elementor-nav-menu--dropdown li:not(:last-child) {
-	border-style: solid;
-	border-color: rgb(201, 237, 254) !important; 
-	border-bottom: 1px solid rgb(201, 237, 254) !important;
+  border-style: solid;
+  border-color: rgb(201, 237, 254) !important;
+  border-bottom: 1px solid rgb(201, 237, 254) !important;
 }

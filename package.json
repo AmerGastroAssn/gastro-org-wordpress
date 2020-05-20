@@ -1,0 +1,19 @@
+{
+  "name": "gastro-org-wordpress",
+  "version": "0.0.1",
+  "description": "This project contains custom reusable components for the Gastro.org Wordpress site that could not be created with Elementor, or they work with Elementor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmerGastroAssn/gastro-org-wordpress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmerGastroAssn/gastro-org-wordpress/issues"
+  },
+  "homepage": "https://github.com/AmerGastroAssn/gastro-org-wordpress#readme"
+}

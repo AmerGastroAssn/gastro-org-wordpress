@@ -1,0 +1,18 @@
+blockquote,
+blockquote > p {
+  background: #c9e9f7;
+  font-family: 'Georgia', 'Times New Roman', Cambria, Merriweather, serif !important;
+  color: #00588a;
+  font-size: 18px;
+  line-height: 1.6em;
+  margin: 0;
+}
+blockquote > p > a:link,
+p > a:link {
+  color: #0090d5 !important;
+}
+
+blockquote > p > a:link:hover,
+p > a:link:hover {
+  color: #faa61a !important;
+}
