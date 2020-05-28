@@ -1,4 +1,4 @@
-/* Colin fixed issues on: 05-21-2020 */
+/* Colin fixed issues on: 05-28-2020 */
 /* @import must be at top of file, otherwise CSS will not work */
 @import url("//hello.myfonts.net/count/34e3cc");
 
@@ -49,7 +49,7 @@
     --monospace: 'SF Mono', Menlo, 'Roboto Mono', 'Deja Vu Sans Mono', 'Monaco', monospace !important;
 
     /* Colors */
-    --dark: #1F385A;
+    --dark: #122033;
     --light: #fff;
     --white: #fff;
     --light-gray: #fcfdfd;
@@ -104,7 +104,7 @@ a.btn, button.btn {
 }
 
 a.aga-btn-dark, button.aga-btn-dark {
-    color: var(--white) !important;
+    color: var(--white);
     background-color: var(--midnight);
     border-color: var(--midnight);
     border-radius: 5px;
